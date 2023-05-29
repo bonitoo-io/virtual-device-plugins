@@ -1,0 +1,8 @@
+plugin.main=io.bonitoo.virdev.plugin.LPFileReaderPlugin
+plugin.name=LPFileReader
+plugin.description=Reads Line Protocol files and sends to MQTT
+plugin.version=0.1
+plugin.type=Sample
+plugin.resultType=Json
+plugin.label=lp
+default.lp.file=test.lp

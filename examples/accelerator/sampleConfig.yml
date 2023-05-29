@@ -1,0 +1,16 @@
+---
+id: "random"
+name: "accelTestDevice"
+description: "testing accelerator plugin"
+samples:
+- name: "accelTestSample"
+  id: "random"
+  topic: "test/accel"
+  items:
+  - name: "AcceleratorTest"
+    type: "Plugin"
+    pluginName: "AcceleratorPlugin"
+    resultType: "Double"
+interval: 1000
+jitter: 0
+count: 1

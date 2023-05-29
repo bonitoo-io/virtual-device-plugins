@@ -1,0 +1,7 @@
+---
+name: "LPFileReaderConf"
+id: "random"
+topic: "test/linep"
+items: []
+plugin: "LPFileReader"
+source: "myTestLP.lp"

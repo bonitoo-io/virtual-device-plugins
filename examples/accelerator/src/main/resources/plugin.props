@@ -1,0 +1,9 @@
+plugin.main=io.bonitoo.virdev.plugin.AcceleratorPlugin
+plugin.name=AcceleratorPlugin
+plugin.description=A toy plugin for oscillating speed values
+plugin.version=0.1
+plugin.type=Item
+plugin.resultType=Double
+plugin.label=speed
+initial.speed=3.0
+initial.accel=0.5
