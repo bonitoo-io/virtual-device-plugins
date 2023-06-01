@@ -58,7 +58,7 @@ public class AcceleratorPlugin extends ItemGenPlugin {
   }
 
   @Override
-  public Object genData(Object... objects) {
+  public Object genData() {
     accel = changeAccel(accel, speed);
     long currTimeStamp = System.currentTimeMillis();
     double timeFactor = currTimeStamp - lastRecordStamp;
