@@ -32,8 +32,8 @@ public class AcceleratorPlugin extends ItemGenPlugin {
     return speed;
   }
 
-  public AcceleratorPlugin(PluginProperties props, ItemConfig config, boolean enabled, double speed, double accel) {
-    super(props, config, enabled);
+  public AcceleratorPlugin(PluginProperties props, boolean enabled, double speed, double accel) {
+    super(props, enabled);
     this.speed = speed;
     this.accel = accel;
     this.lastRecordStamp = System.currentTimeMillis();
@@ -47,8 +47,6 @@ public class AcceleratorPlugin extends ItemGenPlugin {
     this.accel = props.getProperties().getProperty("initial.accel") == null ?
       INITIAL_ACCEL : Double.parseDouble(props.getProperties().getProperty("initial.accel"));
 
-    System.out.println("DEBUG initial.speed " + this.speed);
-    System.out.println("DEBUG initial.accel " + this.accel);
     this.enabled = true;
   }
 
