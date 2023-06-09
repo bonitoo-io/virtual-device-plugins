@@ -1,0 +1,7 @@
+plugin.main=io.bonitoo.virdev.plugin.SimpleMovingAvg
+plugin.name=SimpleMovingAvg
+plugin.description=A toy for calculating an average value from a queue
+plugin.version=0.1
+plugin.type=Item
+plugin.resultType=Double
+plugin.label=avg
