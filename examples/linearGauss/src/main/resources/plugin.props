@@ -1,0 +1,7 @@
+plugin.main=io.bonitoo.virdev.plugin.LinearGauss
+plugin.name=LinearGaussGen
+plugin.description=Leverages the gauss generator function of NumGenerator
+plugin.version=0.1
+plugin.type=Item
+plugin.resultType=Double
+plugin.label=val
